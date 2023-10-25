@@ -7,22 +7,58 @@ header{
     height: 80px;
 }
 h1{
+    padding: 5px 5px;
     line-height: 80px;
+    height: 5px;
+    text-shadow: 2px 2px 2px cornflowerblue;
+    text-align: left;
+    color: rgb(245, 230, 230);
+    margin-left: 15px;
 }
 nav{
     font-size: 20px;
     text-decoration: none;
+    text-align: right;
+    
 }
 
-h1{
-    text-shadow: 2px 2px 2px cornflowerblue;
-    text-align: left;
-    color: red;
+a{
+  padding: 50px 25px;
+  margin-right: 0%;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 75px;
+  
+}
+
+footer{
+    
+    background-color: rgb(91, 161, 182);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed !important;
+    width: 100vw;
+    bottom: 0px;
+    z-index: 1000;
+    padding:0  30px;
+}
+
+p{
+    color: #dfe4ea;
+    text-align: center;
+    margin-right: 0%;
+}
+
+span{
+    color: #dfe4ea;
+    text-align:right;
+    margin-right: 0%;
 }
 
 div.contenedor{
     display: flex;
-    height: 400px; */
+    height: 400px;
     background-color: aqua;
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
@@ -64,4 +100,9 @@ div.contenedor > p{
 }
 button{
     flex:1 0 40px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }
