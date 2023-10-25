@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: aqua;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    line-height: 100px;
+}
+nav{
+    background-color: black;
+    height: 80px;
+    text-align: center;
+     
+}
+a{
+    color: white;
+    font-size: 1.25em;
+    line-height: 80px;
+    text-decoration: none;
+    padding: 200px;
+      
+}
+
+section{
+    width: 450px;
+    padding: 30px;
+    float: left;
+}
+.imagen{
+   float: left;
+   
+}
+footer{
+    clear: both;
+    position: relative;
+    text-align: center;
+    top: 200px;
+    background-color: aqua;
+    height: 150px;
+}
+span{
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+i{
+    padding: 20px;
+    margin: 10px;
+}
