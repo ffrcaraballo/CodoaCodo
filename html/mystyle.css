@@ -23,11 +23,12 @@ nav{
 }
 
 a{
-  padding: 50px 25px;
+  padding: 10px;
   margin-right: 0%;
   font-weight: 700;
   font-size: 20px;
   line-height: 75px;
+  
 }
 
 footer{
@@ -35,26 +36,24 @@ footer{
     background-color: rgb(91, 161, 182);
     display: flex;
     align-items: center;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     position: fixed !important;
     width: 100vw;
     bottom: 0px;
     z-index: 1000;
-    padding: 0 30px;
+    padding:0  30px;
 }
 
 p{
     color: #dfe4ea;
     text-align: center;
-    margin-right: 20%;
-    margin-left: 30%;
+    margin-right: 0%;
 }
 
 span{
     color: #dfe4ea;
     text-align:right;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 0%;
 }
 
 div.contenedor{
@@ -106,15 +105,4 @@ button{
 img {
     display: block;
     margin: 0 auto;
-}
-
-.Bienvenida{
-    padding: 5px 5px;
-    line-height: 180px;
-    height: 150px;
-    text-shadow: 2px 2px 2px cornflowerblue;
-    text-align: center;
-    color: rgb(105, 124, 211);
-    margin-left: 15px;
-    font-size: 50px;
 }

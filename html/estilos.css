@@ -1,0 +1,61 @@
+/* Estilos generales (puedes reutilizar el mismo archivo CSS de registro) */
+
+/* Estilos específicos para el formulario de inicio de sesión */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Estilos para etiquetas y campos de entrada */
+label {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    text-align: center;
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de inicio de sesión */
+input[type="submit"] {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón de inicio de sesión al pasar el cursor */
+input[type="submit"]:hover {
+    text-align: center;
+    background-color: #0056b3;
+}
+section{
+
+    margin-top: 20px;
+
+    text-align: center;
+
+}
+form{
+	width: 400px;
+	padding:16px;
+	border-radius:20px;
+	margin:auto;
+	background-color:#ccc;
+    
+}
