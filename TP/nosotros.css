@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(91, 161, 182);
+    height: 80px;
+}
+
+h1{
+    padding: 0px 0px;
+    line-height: 60px;
+    height: 5px;
+    text-shadow: 2px 2px 2px cornflowerblue;
+    text-align: left;
+    color: rgb(245, 230, 230);
+    margin-left: 15px;
+}
+
+h2{
+    padding: 20px 0px;
+    line-height: 80px;
+    height: 5px;
+    text-shadow: 2px 2px 2px cornflowerblue;
+    text-align: left;
+    color: rgb(245, 230, 230);
+    margin-left: 15px;
+}
+
+
+a{
+  padding: 10px 45px;
+  margin-left: 85%;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 10px;
+}
+
+footer{
+    
+    background-color: rgb(91, 161, 182);
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    position: fixed !important;
+    width: 100vw;
+    bottom: 0px;
+    z-index: 1000;
+    padding: 0 30px;
+}
+
+p{
+    color: #dfe4ea;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 30%;
+}
+
+span{
+    color: #dfe4ea;
+    text-align:right;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+div.contenedor{
+    display: flex;
+    height: 400px;
+    background-color: aqua;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+
+}
+
+div.contenedor > p{
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 15px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
