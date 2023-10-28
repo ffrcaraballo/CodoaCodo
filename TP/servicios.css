@@ -80,6 +80,7 @@ div.contenedor > p{
     margin: 20px;
     padding: 15px;
 }
+
 .flex-container{
     display: flex;
     flex-wrap: wrap;
@@ -89,25 +90,34 @@ div.contenedor > p{
 }
 
 h3{
-    padding: 20px 10px;
+    padding: 0.5px 10px;
     line-height: 80px;
     height: 50px;
     text-shadow: 2px 2px 2px cornflowerblue;
     text-align: center;
     color: rgb(5, 4, 4);
-    
+    font-size: 30px;
 }
 
-.presentación{
-    padding: 20px 20px;
-    line-height: 20px;
-    height: 15px;
-    text-align: left;
-    color: rgb(37, 37, 37);
-    margin-left: 15px;
+.servicios{
+    color: #0d0e0f;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+   
 }
 
 body {
     background: #a8e6cf;
     font-family: Arial, Helvetica, sans-serif;  
+  }
+
+  .icon{
+    color: #0d0e0f;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+    height: 14px;
+    font-size: 20px;
+    padding: 10px 0px;
   }
